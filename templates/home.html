@@ -5,8 +5,235 @@
     <meta charset="UTF-8">
     <title>首页</title>
     <link href="{% static 'css/reset.css' %}" rel="stylesheet">
+    <link href="{% static 'css/header.css' %}" rel="stylesheet">
+    <link href="{% static 'css/index.css' %}" rel="stylesheet">
+    <link href="{% static 'css/public.css' %}" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/Swiper/4.3.0/css/swiper.min.css" rel="stylesheet">
 </head>
 <body>
-    <div>this is home</div>
+    <header class="header">
+        <div class="header-view">
+            <img class="logo" src="{% static  'img/logo.png'%}">
+            <div class="search-view">
+                <span class="search-tips">方式</span>
+                <input type="text" class="search-input-view" title="">
+                <img src="{% static 'img/search-icon.png' %}">
+            </div>
+            <a>首页</a>
+            <a>最新动态</a>
+            <a>专家列表</a>
+            <a>案例分享</a>
+            <a>规划信息</a>
+            <a>菜单服务</a>
+            <a>联系我们</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="swiper-container banner-view">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="{% static 'img/banner.png' %}"></div>
+                <div class="swiper-slide"><img src="{% static 'img/banner-2.png' %}"></div>
+            </div>
+            <div class="swiper-pagination pagin-1"></div>
+        </div>
+        <div class="cell-1">
+            <div class="tips-view-1">
+                <img class="tips-img-1" src="{% static 'img/zuixindongtai.png' %}">
+                <img class="tips-img-2" src="{% static 'img/latest-news.png' %}">
+            </div>
+            <div class="center-bg-1">
+                <div class="swiper-container center-view">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide tl-view">
+                            <img class="left-img" src="{% static 'img/center-img.png' %}">
+                            <div class="text-view">
+                                <div class="title-tips">标题标题标题标题标题标题</div>
+                                <div class="dec-tips">
+                                    我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+                                    我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+                                    我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+                                    我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+                                    我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+                                    我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+                                    我是内容我是内容我是内容我是内容我是内容我是内容我是内容</div>
+                                <img class="detail-btn" src="{% static 'img/detial-btn.png' %}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="arrow-btn arrow-left-btn" src="{% static 'img/arrow-left.png' %}">
+                <img class="arrow-btn arrow-right-btn" src="{% static 'img/arrow-right.png' %}">
+            </div>
+        </div>
+        <div class="cell-2">
+            <div class="tips-view-1">
+                <img class="tips-img-1" src="{% static 'img/tips-img-3.png' %}">
+                <img class="tips-img-2" src="{% static 'img/tips-img-4.png' %}">
+            </div>
+            <div class="center-bg-2">
+                <div class="swiper-container center-view-2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="p-view-list">
+                                <div class="p-item " >
+                                    <img class="touxiang" src="{% static 'img/touxiang.png'%}">
+                                    <div class="p-title">XXX专家</div>
+                                    <div class="p-tips">专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍</div>
+                                </div>
+                                <div class="p-item">
+                                    <img class="touxiang" src="{% static 'img/touxiang.png'%}">
+                                    <div class="p-title">XXX专家</div>
+                                    <div class="p-tips">专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍</div>
+                                </div>
+                                <div class="p-item">
+                                    <img class="touxiang" src="{% static 'img/touxiang.png'%}">
+                                    <div class="p-title">XXX专家</div>
+                                    <div class="p-tips">专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍</div>
+                                </div>
+                                <div class="p-item">
+                                    <img class="touxiang" src="{% static 'img/touxiang.png'%}">
+                                    <div class="p-title">XXX专家</div>
+                                    <div class="p-tips">专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="p-view-list">
+                                <div class="p-item " >
+                                    <img class="touxiang" src="{% static 'img/touxiang.png'%}">
+                                    <div class="p-title">XXX专家111</div>
+                                    <div class="p-tips">专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍</div>
+                                </div>
+                                <div class="p-item">
+                                    <img class="touxiang" src="{% static 'img/touxiang.png'%}">
+                                    <div class="p-title">XXX专家111</div>
+                                    <div class="p-tips">专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍</div>
+                                </div>
+                                <div class="p-item">
+                                    <img class="touxiang" src="{% static 'img/touxiang.png'%}">
+                                    <div class="p-title">XXX专家111</div>
+                                    <div class="p-tips">专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍</div>
+                                </div>
+                                <div class="p-item">
+                                    <img class="touxiang" src="{% static 'img/touxiang.png'%}">
+                                    <div class="p-title">XXX专家111</div>
+                                    <div class="p-tips">专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination pagin-2"></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="cell-3">
+            <div class="tips-view-1">
+                <img class="tips-img-2" src="{% static 'img/tips-img-6.png' %}">
+            </div>
+            <div class="center-bg-3">
+                <img class="left-img-2" src="{% static 'img/anli-img.png' %}">
+                <div class="text-view-2">
+                    <div class="title-tips-2">标题标题标题标题标题标题</div>
+                    <div class="line-1">
+                    </div>
+                    <div class="dec-tips-2">
+                        我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+                        我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+                        我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+                        我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+                        我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+                        我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+                        我是内容我是内容我是内容我是内容我是内容我是内容我是内容</div>
+                    <img class="detail-btn-2" src="{% static 'img/detial-btn.png' %}">
+                </div>
+            </div>
+            <div class="center-bg-4 mt50">
+                <img src="{% static 'img/anli-img-s.png' %}">
+                <img class="ml91" src="{% static 'img/anli-img-s.png' %}">
+                <img class="ml91" src="{% static 'img/anli-img-s.png' %}">
+            </div>
+        </div>
+        <div class="cell-3">
+            <div class="tips-view-1">
+                <img class="tips-img-1" src="{% static 'img/tips-img-7.png' %}">
+                <img class="tips-img-2" src="{% static 'img/tips-img-8.png' %}">
+            </div>
+            <div class="center-bg-5">
+                <div class="s-cell">
+                    <div class="s-cell-item">
+                        <img class="s-cell-img" src="{% static 'img/anli-img-s.png' %}">
+                        <div class="s-cell-title">
+                            服务的对象
+                        </div>
+                        <div class="s-cell-dec">
+                            服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍
+                        </div>
+                    </div>
+                    <div class="s-center-item">
+                        <div class="s-cell-title-2">
+                            服务的对象
+                        </div>
+                        <div class="s-cell-dec">
+                            服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍
+                        </div>
+                        <img class="s-cell-img-2" src="{% static 'img/anli-img-s.png' %}">
+                    </div>
+                    <div class="s-cell-item">
+                        <img class="s-cell-img" src="{% static 'img/anli-img-s.png' %}">
+                        <div class="s-cell-title">
+                            服务的对象
+                        </div>
+                        <div class="s-cell-dec">
+                            服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍服务的对象介绍
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="cell-3">
+            <div class="tips-view-1">
+                <img class="tips-img-1" src="{% static 'img/tips-img-9.png' %}">
+                <img class="tips-img-2" src="{% static 'img/tips-img-10.png' %}">
+                <img class="tips-img-3" src="{% static 'img/contact-img.png' %}">
+            </div>
+            <div class="bot-view">copyright</div>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/Swiper/4.3.0/js/swiper.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.banner-view', {
+            autoplay: true,//可选选项，自动滑动
+            loop: true,
+            speed:3000,
+            // 如果需要分页器
+            pagination: {
+                el: '.pagin-1',
+            },
+        })
+        var mySwiperC = new Swiper('.center-view', {
+            autoplay: true,//可选选项，自动滑动
+            loop: true,
+            speed:3000,
+            navigation: {
+                nextEl: '.arrow-right-btn',
+                prevEl: '.arrow-left-btn',
+            },
+        })
+        var mySwiperS = new Swiper('.center-view-2', {
+            autoplay: true,//可选选项，自动滑动
+            loop: true,
+            speed:3000,
+            // 如果需要分页器
+            pagination: {
+                el: '.pagin-2',
+            },
+        })
+
+
+
+    </script>
 </body>
 </html>

@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="887f2815-c0a6-4e52-82e6-b2d0192ac4a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/person_center/static/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/anli-img-s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/anli-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/arrow-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/arrow-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/banner-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/cell-1-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/cell-2-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/cell-3-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/center-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/center-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/contact-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/detial-btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/latest-news.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/search-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/tips-img-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/tips-img-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/tips-img-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/tips-img-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/tips-img-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/tips-img-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/tips-img-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/tips-img-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/touxiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person_center/static/img/zuixindongtai.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,25 +47,26 @@
     <session id="1240090090">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
-          <entry key="html" value="1" />
+          <entry key="css" value="2" />
+          <entry key="html" value="2" />
           <entry key="js" value="1" />
           <entry key="py" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="1" />
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="2" />
           <entry key="JavaScript" value="1" />
           <entry key="Python" value="21" />
         </counts>
@@ -43,7 +74,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="16" />
-          <entry key="html" value="41" />
+          <entry key="html" value="279" />
           <entry key="js" value="17" />
           <entry key="py" value="222" />
           <entry key="py@web_root" value="2" />
@@ -53,7 +84,7 @@
         <counts>
           <entry key="CSS" value="16" />
           <entry key="CommandLine" value="2" />
-          <entry key="HTML" value="41" />
+          <entry key="HTML" value="279" />
           <entry key="JavaScript" value="17" />
           <entry key="Python" value="222" />
         </counts>
@@ -65,42 +96,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_root/urls.py">
+        <entry file="file://$PROJECT_DIR$/person_center/static/css/reset.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#632#664#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="108">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/person_center/static/css/reset.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/person_center/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="-664">
+              <caret line="198" column="75" selection-start-line="198" selection-start-column="75" selection-end-line="198" selection-end-column="75" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/person_center/static/css/public.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -148,7 +163,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,10 +175,21 @@
               <item name="web_root" type="462c0819:PsiDirectoryNode" />
               <item name="person_center" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="web_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_root" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_root" type="462c0819:PsiDirectoryNode" />
+              <item name="web_root" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,12 +200,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\web_root\templates" />
+      <recent name="C:\web_root\person_center\static" />
+      <recent name="C:\web_root\person_center\static\css" />
+      <recent name="C:\web_root\person_center" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\web_root\person_center" />
       <recent name="C:\web_root" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\web_root\person_center" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -236,10 +264,9 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.27508092" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.1723301" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.25718608" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="manage.py@web_root" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -253,6 +280,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008091" side_tool="true" weight="0.32866043" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49919093" weight="0.32866043" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="manage.py@web_root" order="13" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -266,6 +294,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/templates/home.html</url>
+          <line>206</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web_root/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -274,9 +314,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/person_center/person_center/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/person_center/person_center/__init__.py" />
     <entry file="file://$PROJECT_DIR$/person_center/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -297,9 +335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -319,11 +354,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-186" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/person_center/static/js/jquery.min.js">
@@ -333,10 +364,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/web_root/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="27">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -347,20 +381,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_root/urls.py">
+    <entry file="file://$PROJECT_DIR$/person_center/static/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="108">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" selection-start-line="10" selection-end-line="236" selection-end-column="7" />
           <folding>
-            <element signature="e#632#664#0" expanded="true" />
+            <element signature="n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/person_center/static/css/reset.css">
+    <entry file="file://$PROJECT_DIR$/person_center/static/css/public.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="-664">
+          <caret line="198" column="75" selection-start-line="198" selection-start-column="75" selection-end-line="198" selection-end-column="75" />
         </state>
       </provider>
     </entry>
